@@ -1,6 +1,4 @@
-package de.uni.koeln.sse.se;
-
-import Task2.Waterpolo;
+package Task1;
 
 public interface Visitor {
 

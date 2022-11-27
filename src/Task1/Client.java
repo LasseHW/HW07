@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se;
+package Task1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

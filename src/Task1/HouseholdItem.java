@@ -1,4 +1,4 @@
-package de.uni.koeln.sse.se;
+package Task1;
 
 public interface HouseholdItem {
 
