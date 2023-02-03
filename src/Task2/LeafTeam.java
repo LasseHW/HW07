@@ -1,12 +1,12 @@
 package Task2;
 
-public class TableTennis implements Team {
+public class LeafTeam implements Team{
     private String name;
     private int numberOfGM;
     private int numberOfAthletes;
 
 
-    public TableTennis(String name, int numberOfGM, int numberOfAthletes) {
+    public LeafTeam(String name, int numberOfGM, int numberOfAthletes) {
         this.name = name;
         this.numberOfGM = numberOfGM;
         this.numberOfAthletes = numberOfAthletes;
@@ -15,11 +15,11 @@ public class TableTennis implements Team {
 
     @Override
     public void printNameAndNumberGM() {
-        System.out.println(" Team:" + name + ", Number of Gold Medallists: " + numberOfAthletes);
+        System.out.println("Team:" + name + ", Number of Gold Medallists: " + numberOfAthletes);
 
     }
 
     public void printNameAndNumberOfAthletes() {
-        System.out.println(" Team:" + name + ", Number of Athletes: " + numberOfAthletes);
+        System.out.println("Team:" + name + ", Number of Athletes: " + numberOfAthletes);
     }
 }

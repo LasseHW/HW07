@@ -1,25 +1,28 @@
-package Task2;
+package Task21;
 
-public class InformationCenter {
+import Task2.CompositeTeam;
+import Task2.LeafTeam;
+
+public class InformationCenter2 {
 
     public static void main(String[] args) {
         LeafTeam c = new LeafTeam("Cycling", 8, 2);
         LeafTeam t = new LeafTeam("Tennis", 6, 5);
         LeafTeam tT = new LeafTeam("Table-Tennis", 3, 2);
         LeafTeam fB = new LeafTeam("Football", 1, 2);
-        CompositeTeam gWT = new CompositeTeam("German Women's Team");
-        CompositeTeam gMT = new CompositeTeam("Germany Men's Team");
-        CompositeTeam GT = new CompositeTeam("Germany Team");
-        CompositeTeam eP = new CompositeTeam("Europe Team");
+        Task2.CompositeTeam gWT = new Task2.CompositeTeam("German Women's Team");
+        Task2.CompositeTeam gMT = new Task2.CompositeTeam("Germany Men's Team");
+        Task2.CompositeTeam GT = new Task2.CompositeTeam("Germany Team");
+        Task2.CompositeTeam eP = new Task2.CompositeTeam("Europe Team");
         LeafTeam tk = new LeafTeam("Teakwondo", 1, 1);
         LeafTeam wP = new LeafTeam("Waterpolo", 1, 1);
         LeafTeam aG = new LeafTeam("Artistic-Gymnastics", 1, 19);
         LeafTeam sH = new LeafTeam("Shooting", 1, 3);
-        CompositeTeam wT = new CompositeTeam("China Women's Team");
-        CompositeTeam mT = new CompositeTeam("China Men's Team");
-        CompositeTeam cT = new CompositeTeam("China Team");
-        CompositeTeam aT = new CompositeTeam("Asia Team");
-        CompositeTeam oT = new CompositeTeam("Olympics Team");
+        Task2.CompositeTeam wT = new Task2.CompositeTeam("China Women's Team");
+        Task2.CompositeTeam mT = new Task2.CompositeTeam("China Men's Team");
+        Task2.CompositeTeam cT = new Task2.CompositeTeam("China Team");
+        Task2.CompositeTeam aT = new Task2.CompositeTeam("Asia Team");
+        Task2.CompositeTeam oT = new CompositeTeam("Olympics Team");
         gMT.addTeam(c);
         gMT.addTeam(t);
         gWT.addTeam(tT);
@@ -47,3 +50,4 @@ public class InformationCenter {
 
     }
 }
+
